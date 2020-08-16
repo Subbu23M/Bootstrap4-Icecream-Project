@@ -1,0 +1,25 @@
+body{
+    font-family: 'Simonetta', cursive;
+    margin-top: 70px;
+}
+
+.transparent{
+    background-color: rgba(175, 76, 6, 0.7);
+}
+
+.height{
+    min-height: 100vh;
+}
+
+#banner,
+#contact,
+#social-media{
+    background: linear-gradient(rgba(139,69,19,0.6),rgba(139,69,19,0.6)),url(../images/banner.jpg);
+    /* parallax affects */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
